@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+/* começando a estilizar o header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+
+#minha-foto {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.caixa-foto-nome {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.caixa-botoes-header button img {
+    width: 20px;
+}
+
+.caixa-botoes-header button {
+    border: none;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+#botao-curriculo {
+    background-color:  rgba(151, 87, 201, 0.496);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.caixa-botoes-header {
+    display: flex;
+    gap: 10px;
+}
+
+/* começando o main */
+
+.espaçamento {
+    padding: 0px 80px;
+}
+
+#banner {
+    height: 85vh;
+    background-color:  rgba(151, 87, 201, 0.496);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    color: white;
+}
+
+#banner h1 {
+    font-size: 55px;
+}
+
+#banner p {
+    width: 65%;
+    font-size: 18px;
+}
+
+#banner button {
+    border: none;
+    padding: 15px 60px;
+    border-radius: 5px;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgba(151, 87, 201, 0.496);
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.05);
+}
+
+button:hover {
+    cursor: pointer;
+
+}
+
+#banner-tecnologias {
+    background-color: #d9d9d98f;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+#caixa-tecnologia {
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner-tecnologias img {
+    background-color: white;
+    padding: 25px 50px;
+    border-radius: 5px;
+
+}
+
+#banner-tecnologias h2 {
+    margin-bottom: 50px;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+/* iniciando a caixa final */
+
+#caixa-final {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#bater-papo {
+    width: 30%;
+}
+
+#bater-papo h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#bater-papo p {
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+#bater-papo button {
+    border: none;
+    background-color: rgba(151, 87, 201, 0.496);
+    padding: 15px 50px;
+    border-radius: 5px;
+    color: white;
+    -webkit-box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+#projetos>h6 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#projetos>h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+#projetos {
+    width: 50%;
+
+}
+
+.card-projetos {
+    margin-bottom: 30px;
+}
+
+.card-projetos h6 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.texto-tecnologias {
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.texto-tecnologias span {
+    color:blue;
+    background-color:  rgba(151, 87, 201, 0.496);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.texto-descrição {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    width: 75%;
+}
+
+.botoes-projetos button {
+    border: none;
+    padding: 8px 35px;
+    border-radius: 5;
+    background-color: white;
+    border: 0.5px solid black;
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+footer {
+    height: 200px;
+    background-color:  rgba(151, 87, 201, 0.496);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    margin-top: 30px;
+}
+
+footer img {
+    width: 30px;
+}
