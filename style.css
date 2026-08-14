@@ -226,3 +226,83 @@ footer {
 footer img {
     width: 30px;
 }
+@media (max-width: 768px) {
+
+  /* --- HEADER --- */
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 24px;
+  }
+
+  .caixa-botoes-header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* --- ESPAÇAMENTO GERAL --- */
+  .espacamento {
+    padding: 0px 24px;
+  }
+
+  /* --- BANNER PRINCIPAL --- */
+  #banner {
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 20px;
+  }
+
+  #banner h1 {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+
+  #banner p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  #banner button {
+    padding: 12px 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* --- SEÇÃO DE TECNOLOGIAS --- */
+  #caixa-tecnologias {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  #caixa-tecnologias div {
+    padding: 20px 30px;
+  }
+
+  /* --- SEÇÃO FINAL (bater papo + projetos) --- */
+  #caixa-final {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  #bater-papo {
+    width: 100%;
+  }
+
+  #projetos {
+    width: 100%;
+  }
+
+  /* --- CARDS DE PROJETO --- */
+  .texto-descricao {
+    width: 100%;
+  }
+
+  .card-projeto button {
+    margin-bottom: 8px;
+  }
+}
