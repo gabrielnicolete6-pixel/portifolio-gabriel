@@ -271,13 +271,13 @@ footer img {
   }
 
   /* --- SEÇÃO DE TECNOLOGIAS --- */
-  #caixa-tecnologias {
+  #caixa-tecnologia {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
   }
 
-  #caixa-tecnologias div {
+  #caixa-tecnologia div {
     padding: 20px 30px;
   }
 
