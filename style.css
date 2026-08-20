@@ -271,13 +271,13 @@ footer img {
   }
 
   /* --- SEÇÃO DE TECNOLOGIAS --- */
-  #caixa-tecnologia {
+  #caixa-tecnologias {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
   }
 
-  #caixa-tecnologia div {
+  #caixa-tecnologias div {
     padding: 20px 30px;
   }
 
@@ -305,4 +305,13 @@ footer img {
   .card-projeto button {
     margin-bottom: 8px;
   }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
 }
