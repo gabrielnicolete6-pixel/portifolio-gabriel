@@ -1,4 +1,4 @@
-let caminhoCurriculo = "./Curriculo_Gabriel_Nicolete_Melo_Cozinha_Profissional_Atualizado-2.pdf"
+let caminhoCurriculo = "./Curriculo.pdf"
 
 let botaoBaixarCurriculo = document.querySelector("#botao-curriculo")
 console.log(botaoBaixarCurriculo);
