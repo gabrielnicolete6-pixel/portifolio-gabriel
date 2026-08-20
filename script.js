@@ -1,4 +1,4 @@
-let caminhoCurriculo = "./Curriculo.pdf"
+let caminhoCurriculo = "./curriculo.pdf"
 
 let botaoBaixarCurriculo = document.querySelector("#botao-curriculo")
 console.log(botaoBaixarCurriculo);
